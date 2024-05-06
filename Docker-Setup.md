@@ -35,14 +35,15 @@ To view the tables in the database, use the command:
 \dt
 ```
 
- Schema |     Name      | Type  |  Owner   
---------+---------------+-------+----------
- public | actors        | table | postgres
- public | film_actors   | table | postgres
- public | film_category | table | postgres
- public | films         | table | postgres
- public | users         | table | postgres
-(5 rows)
+```
+| Schema |     Name      | Type  |  Owner   |
+|--------|---------------|-------|----------|
+| public | actors        | table | postgres |
+| public | film_actors   | table | postgres |
+| public | film_category | table | postgres |
+| public | films         | table | postgres |
+| public | users         | table | postgres |
+```
 
 This command displays a list of all tables in the connected database.
 
